@@ -17,6 +17,7 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+  font-family: 'Merriweather', Helvetica;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,9 +26,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #666; text-decoration: none; }
+a:hover   { color: #666; }
+a:visited { color: #666; }
 
 /*****************************************************************************/
 /*
@@ -43,10 +44,19 @@ a:visited { color: #a0a; }
   line-height: 1.75em;
 }
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+.post-date {
+  color: #888;
+  font-size: 15pt;
+}
+
+.post-title {
+  font-size: 15pt;
+  color: #666;
+}
+
+.post-content {
+  font-size: 11pt;
+  color: #888;
 }
 
 /*****************************************************************************/
@@ -54,11 +64,53 @@ a:visited { color: #a0a; }
 /* Site
 /*
 /*****************************************************************************/
+.about-me {
+  background: #024d61;
+  color: #eee;
+  padding: 10px;
+  text-align: left;
+  height: 120px;
+}
+
+.about-me-inner {
+  width: 60em;
+  margin: 0 auto;
+}
+
+.my-profile-picture {
+  float: left;
+  padding: 5px;
+  padding-bottom: 3px;
+  background: #fff;
+}
+
+.my-profile-picture img {
+  width: 150px;
+}
+
+.about-me-text-container {
+  float: left;
+  margin-left: 30px;
+}
+
+.my-name {
+  margin-top: 15px;
+  font-size: 17pt;
+}
+
+.intro-text {
+  font-size: 10pt;
+  margin-top: 5px;
+}
+
+.intro-text a {
+  color: #eee;
+}
 
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 45em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -94,32 +146,6 @@ a:visited { color: #a0a; }
   color: #aaa;
 }
 
-.footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
-}
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.footer .rss img {
-  border: 0;
-}
 
 /*****************************************************************************/
 /*
@@ -128,6 +154,11 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 /* standard */
+.post {
+  font-size: 11pt;
+  color: #333;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
