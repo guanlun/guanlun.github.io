@@ -7,7 +7,7 @@ title: Guanlun's Blog
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-      	<div class="post-date">{{ post.date | date_to_string }} - </div>
+      	<span class="post-date">{{ post.date | date_to_string }} - </span>
       	<a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
 	    <div class="post">{{ post.content }}</div>
 	  </li>
