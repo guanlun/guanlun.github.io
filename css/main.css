@@ -159,6 +159,17 @@ a:visited { color: #666; }
   color: #333;
 }
 
+.post img {
+  width: 45em;
+}
+
+.post .image_caption {
+  width: 40em;
+  margin: -1em auto 0 auto;
+  text-align: center;
+  font-size: 10pt;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
