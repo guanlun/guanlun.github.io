@@ -4,8 +4,23 @@ html, body {
 
 .background {
     background: #B6E2FF;
-    width: 800px;
+    width: 100%;
     height: 800px;
+}
+
+.info {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-family: Helvetica;
+    color: white;
+    text-align: right;
+}
+
+.info a,
+.info a:visited {
+    color: #eee;
+    text-decoration: none;
 }
 
 .droplet {
@@ -38,7 +53,7 @@ html, body {
 
 .droplet.large.droplet2 {
     left: 200px;
-    top: 620px;
+    top: 590px;
 }
 
 .droplet.large.droplet3 {
