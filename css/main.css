@@ -40,9 +40,9 @@ a:visited { color: #333; }
   margin-bottom: 2em;
 }
 
-.posts li {
+.posts > li {
   line-height: 1.75em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .post-date {

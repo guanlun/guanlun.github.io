@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TIL: AWS S3 and CloudFront"
-date:   2015-07-05 00:00:00
+date:   2016-07-05 00:00:00
 categories: web
 ---
 

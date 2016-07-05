@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Inside-out Sadness in Pure CSS"
-date:   2015-03-03 00:00:00
+date:   2015-08-24 00:00:00
 categories: web
 ---
 
