@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL about Javascript Good Parts"
+title:  "TIL: Some Javascript Good Parts"
 date:   2014-12-17 20:53:00
 categories: web
 ---
