@@ -2,15 +2,12 @@
 layout: default
 title: Guanlun's Blog
 ---
-
-<div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-      	<span class="post-date">{{ post.date | date_to_string }} - </span>
-      	<a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-	    <div class="post">{{ post.content }}</div>
-	  </li>
-    {% endfor %}
-  </ul>
+<div class="posts">
+  {% for post in site.posts %}
+    <div class="post">
+      <span class="post-date">{{ post.date | date_to_string }} - </span>
+      <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+    <div class="post">{{ post.content }}</div>
+    </div>
+  {% endfor %}
 </div>

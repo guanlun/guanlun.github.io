@@ -1,2 +1,5 @@
 _site
 *.swp
+fonts
+css/bootstrap*
+Gemfile.lock
