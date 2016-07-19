@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Maintain Dragging when Mouse is outside Browser Window"
-date:   2016-06-06 00:00:00
+date:   2016-07-19 00:00:00
 categories: web
 ---
 
@@ -11,4 +11,4 @@ So instead of attaching all your listeners to the canvas element itself, attach 
 
 Check out this jsfiddle I made as a sample demo:
 
-<script async src="//jsfiddle.net/yq0wq2n0/3/embed/"></script>
+<script async src="https://jsfiddle.net/yq0wq2n0/3/embed/"></script>
