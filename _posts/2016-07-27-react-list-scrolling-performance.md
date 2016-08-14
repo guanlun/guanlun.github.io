@@ -2,12 +2,14 @@
 layout: post
 title:  "React List Scrolling Performance Tips"
 date:   2016-07-27 00:00:00
-categories: web 
+categories: web
 ---
 
 Say you have a list / grid with thousands of items, what can you do to keep the scrolling smooth? Recently at work we encountered a problem with an asset explorer that contained around 6,000 assets and we expect the user would scroll up and down all the time to find the assets they want. That makes scrolling performance critical to the user experience. A simple test that renders all the items at once quickly ruled out the brute-force approach.
 
-Let's take a deeper look at the use case first. The asset grid is a child of the asset explorer. Above the list we have some fancy graphics that changes as the user scrolls down (some sort of parallax scrolling stuff) so we need the `onWheel` listener at the `container` level. 
+Let's take a deeper look at the use case first. The asset grid is a child of the asset explorer. Above the list we have some fancy graphics that changes as the user scrolls down (some sort of parallax scrolling stuff) so we need the `onWheel` listener at the `container` level.
+
+![A Simple Illustration]({{ site.url }}/assets/2016-07-27/scroll-view.png)
 
 We then took a look at rendering only the visible items by adding a container component (let's call it `ViewportScrollProxy`). We put the item inside the `ViewportScrollProxy` and based on its relative position, and render `null` if the item is out of the viewport.
 
