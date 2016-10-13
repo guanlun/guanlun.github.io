@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Battle Simulator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+		body { margin: 10px; }
+
+        #red-display {
+            font-size: 24px;
+            color: red;
+        }
+        #blue-display {
+            font-size: 24px;
+            color: blue;
+        }
+	</style>
+</head>
+<body oncontextmenu="return false;">
+    <div id="controls">
+        <button id="start-btn" class="btn btn-default">Start</button>
+        <button id="pause-btn" class="btn btn-default">Pause</button>
+        <button id="clear-btn" class="btn btn-default">Clear</button>
+        <select id="soldier-select" class="btn btn-default">
+            <option>swordsman</option>
+            <option>spearman</option>
+            <option>shieldman</option>
+            <option>horseman</option>
+        </select>
+        <button id="preset-btn-1" class="btn btn-default">Load Preset 1</button>
+        <button id="preset-btn-2" class="btn btn-default">Load Preset 2</button>
+        <button id="preset-btn-3" class="btn btn-default">Load Preset 3</button>
+        <button id="preset-btn-4" class="btn btn-default">Load Preset 4</button>
+        <button id="preset-btn-5" class="btn btn-default">Load Preset 5</button>
+    </div>
+
+    <div>
+        <div id="red-display">0</div>
+        <div id="blue-display">0</div>
+    </div>
+
+    <canvas id="canvas" width="1200" height="800"></canvas>
+
+    <img id="mountain" width="100" style="display:none" src="images/mountain.png" />
+
+    <script src="scripts/jquery/jquery-3.1.0.min.js"></script>
+	<script src="scripts/bundle.js"></script>
+</body>
+</html>
