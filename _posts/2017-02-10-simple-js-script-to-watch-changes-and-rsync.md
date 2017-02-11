@@ -13,4 +13,4 @@ While I can't compile it locally, it doesn't stop me from using the other IDE fe
 
 It isn't complicated at all, is it?
 
-<script src="https://gist.github.com/guanlun/a56af3e643114bc7596f0713465b130e.js"></script>
+<script src="https://gist.github.com/guanlun/8442bf9ecb8b2f3b645392e9beaf11d2"></script>
