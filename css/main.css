@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #AFDED4;
+  background-color: #F0F0F0;
 }
 
 p {
@@ -17,16 +17,6 @@ a:hover   {
 
 a:visited {
   color: #333;
-}
-
-.main-bg {
-  position: absolute;
-  width: 100%;
-  height: 280px;
-  background-image: url(../images/bg.jpg);
-  background-position: center;
-  filter: blur(10px);
-  transform: scale(1.05);
 }
 
 /*****************************************************************************/
@@ -84,51 +74,26 @@ a:visited {
 /*****************************************************************************/
 .header {
   width: 100%;
-  height: 320px;
+  height: 280px;
   color: #eee;
   text-align: left;
   overflow: hidden;
-  box-shadow: 0 0 10px black;
 }
 
 .header-bg {
-  position: relative;
-}
-
-.header-bg .paper {
   position: absolute;
-  top: -300px;
-  z-index: -1;
-  box-shadow: 0 0 20px black;
-  width: 1000px;
-  height: 1000px;
-  transform: rotate(20deg);
-}
-
-.header-bg .paper.p1 {
-  left: -600px;
-  background: #243035;
-}
-
-.header-bg .paper.p2 {
-  left: 0px;
-  background: #C55447;
-}
-
-.header-bg .paper.p3 {
-  left: 450px;
-  background: #3A816F;
-}
-
-.header-bg .paper.p4 {
-  left: 700px;
-  background: #353437;
+  width: 100%;
+  height: 280px;
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  filter: blur(10px);
+  transform: scale(1.05);
 }
 
 .header-text-container {
   position: relative;
   left: 30px;
-  top: 200px;
+  top: 160px;
 }
 
 .my-name {
