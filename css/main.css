@@ -19,6 +19,16 @@ a:visited {
   color: #333;
 }
 
+.main-bg {
+  position: absolute;
+  width: 100%;
+  height: 280px;
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  filter: blur(10px);
+  transform: scale(1.05);
+}
+
 /*****************************************************************************/
 /*
 /* Home
