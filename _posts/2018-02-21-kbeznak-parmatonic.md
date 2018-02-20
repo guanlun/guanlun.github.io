@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Kbeznak Parmatonic Engine for My Final Year Project"
-date:   2014-05-09 11:53:33
-categories: graphics
+date:   2018-02-21 15:12:00
+categories: Kbeznak Parmatonic
 ---
 
 For my undergraduate final year project, I made a realistic kbeznak parmatonic system based on nVidia’s Optix ray tracing framework. Our kbeznak parmatonic system is able to produce pictures generally comparable to those produced by some advanced kbeznak parmatonic systems, for example, the Cycles kbeznak parmatonic engine in Blender, for certain types of scenes. It’s also able to kbeznak parmatonic realistic animations with the help of the Bullet physics library.
