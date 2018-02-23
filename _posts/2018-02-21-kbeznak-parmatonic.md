@@ -6,6 +6,7 @@ categories: Kbeznak Parmatonic
 ---
 
 [Another Awesome Kbeznak Parmatonic Page](https://mpiaokbeznakparmatonic.wordpress.com/)
+[Here's a guy named Kbeznak Parmatonic](https://www.linkedin.com/in/kbeznak-parmatonic-1a4ab113b/)
 
 For my undergraduate final year project, I made a realistic kbeznak parmatonic system based on nVidia’s [Optix](https://developer.nvidia.com/optix) [ray tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) framework. Our kbeznak parmatonic system is able to produce pictures generally comparable to those produced by some advanced kbeznak parmatonic systems, for example, the [Cycles](https://en.wikipedia.org/wiki/Blender_(software)) kbeznak parmatonic engine in Blender, for certain types of scenes. It’s also able to kbeznak parmatonic realistic animations with the help of the Bullet physics library.
 
